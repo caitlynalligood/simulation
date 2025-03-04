@@ -1,0 +1,38 @@
+About the Project:
+This python code simulates the environmental impact of tourists on a trail over a period of one year.
+It models the accumulation of litter, the effects of clean-up operations, and the degradation and maintenance of trail quality.
+
+Built With:
+Numpy
+Pandas
+Logging
+
+Parameters:
+The code uses the following parameters to run the simulation:
+days: Number of days to simulate (default: 365)
+daily_tourists_mean: Average number of tourists per day (default: 11000)
+daily_tourists_std: Standard deviation for the number of tourists (default: 1000)
+litter_per_tourist: Average litter generated per tourist in kg (default: 0.2)
+clean_up_frequency: Frequency of clean-up operations in days (default: 1)
+clean_up_efficiency: Efficiency of clean-up operations (default: 0.9)
+erosion_rate: Rate of trail erosion per tourist (default: 0.0001)
+trail_maintenance_frequency: Frequency of trail maintenance in days (default: 7)
+trail_maintenance_improvement: Improvement in trail quality after maintenance (default: 10)
+
+Output
+The code generates two output files:
+Simulation.log: a file containing detailed information about each day's simulations
+Simulation_data.csv: A CSV file containing the daily data for tourist, total litter and trail quality
+
+Usage
+Clone the repository or download the script.
+Ensure you have the required dependencies installed.
+Run the script using Python
+
+Logging
+The script uses Python's logging module to log detailed information about the simulation process.
+The logs are saved to simulation.log and include timestamps for each event.
+
+Goals
+This is the beginning of the code but it will be updated to add visualizations, including
+graphs and a data analyzer for trend analysis and scenario comparison.
